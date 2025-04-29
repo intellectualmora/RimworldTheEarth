@@ -1,4 +1,7 @@
 # RimworldTheEarth
+欢迎大家提供更精确的数据给我做地球
+You're welcome to provide more accurate data for my rimworld Earth project.
+
 Data Format
 tileId,longitude,latitude,elevation,hilliness,biome,waterCovered,rainfall,swampiness
 ```
@@ -6,3 +9,22 @@ tileId,longitude,latitude,elevation,hilliness,biome,waterCovered,rainfall,swampi
 1,-178,-89,2700,Mountainous,IceSheet,False,157,0.03925
 2,-177,-89,2700,Mountainous,IceSheet,False,162,0.0405
 ```
+enum Hilliness
+  {
+    Undefined,
+    Flat,
+    SmallHills,
+    LargeHills,
+    Mountainous,
+    Impassable
+  }
+enum biome{
+    IceSheet,
+    Tundra,
+    BorealForest,
+    TemperateForest,
+    Desert,
+    SeaIce,
+    Ocean,
+    Lake
+    }

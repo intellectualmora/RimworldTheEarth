@@ -1,6 +1,6 @@
 # RimworldTheEarth
-欢迎大家提供更精确的数据给我做地球
-You're welcome to provide more accurate data for my rimworld Earth project.
+- 这是模组用到的地球数据，数据是360*180个样本所以比较粗糙，植被分布也是估计的没确切数据，所以欢迎大家提供数据给我。
+- This is the Earth data used by the mod. The data consists of 360×180 samples, so it is relatively coarse. The vegetation distribution is also estimated, as there is no precise data available. Contributions of more accurate data are very welcome!
 
 ## Data Format
 tileId,longitude,latitude,elevation,hilliness,biome,waterCovered,rainfall,swampiness

@@ -9,6 +9,8 @@ tileId,longitude,latitude,elevation,hilliness,biome,waterCovered,rainfall,swampi
 1,-178,-89,2700,Mountainous,IceSheet,False,157,0.03925
 2,-177,-89,2700,Mountainous,IceSheet,False,162,0.0405
 ```
+## Hilliness
+```
 enum Hilliness
   {
     Undefined,
@@ -18,6 +20,9 @@ enum Hilliness
     Mountainous,
     Impassable
   }
+```
+## biome
+```
 enum biome{
     IceSheet,
     Tundra,
@@ -28,3 +33,4 @@ enum biome{
     Ocean,
     Lake
     }
+```

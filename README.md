@@ -9,7 +9,6 @@ tileId,longitude,latitude,elevation,hilliness,biome,waterCovered,rainfall,swampi
 ```
 enum Hilliness
   {
-    Undefined,
     Flat,
     SmallHills,
     LargeHills,
